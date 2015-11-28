@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Guess My Number"
+        android:text="@string/title"
         android:id="@+id/textView"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check"
+        android:text="@string/check_button"
         android:id="@+id/check"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
